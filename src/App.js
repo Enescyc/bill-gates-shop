@@ -1,29 +1,19 @@
 import './index.css'
 import Basket from "./components/Basket/Basket";
-import ProductCard from "./components/Product/ProductCard";
 import User from "./components/User/User";
+import ProductList from "./components/Product-List/ProductList";
+import Footer from "./components/Footer/Footer";
+
 
 
 function App() {
   return (
     <div className="body">
+        <User></User>
         <div className={"container"}>
-            <User></User>
-            <div className={"product-list"}>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-            </div>
+            <ProductList></ProductList>
             <Basket></Basket>
+            <Footer></Footer>
         </div>
 
     </div>

@@ -33,14 +33,14 @@
     overflow: auto;
 }
 
-table > tr > th {
+tr > th {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #064663;
     text-align: center;
 }
 
-table > tr > td {
+tr > td {
     text-align: center;
     padding: 4px;
     color: #064663;
@@ -50,7 +50,8 @@ table > tr > td {
 
 .basket-title {
     margin: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #064663;
     border-bottom: 2px solid white;
     padding: 4px;

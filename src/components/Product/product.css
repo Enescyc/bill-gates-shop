@@ -4,14 +4,15 @@
     justify-items: center;
     align-items: center;
     background-color: white;
-    width: 30%;
+    color:#ECB365;
+    width: 25%;
     min-width: 256px;
     height: 100%;
     margin: auto;
     border-radius: 20px;
-    border:1px solid gray;
+    border: 1px solid #04293A;
     margin-top: 40px;
-    box-shadow: 3px 6px black;
+    box-shadow: 2px 4px #04293A;
 }
 
 .card-title {
@@ -21,65 +22,91 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    color:#04293A;
-    margin:4px;
+    margin: 4px;
 }
+
 .card-title > .title {
     margin: 2px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-.card-title > img {
-    max-width: 120px;
+
+img {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    width: 120px;
+    width: 240px;
+    height: 120px;
+    margin:10px;
+    border-radius:20px;
 }
 
-.card-body{
+.card-body {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .btn {
     padding: 8px;
-    margin:4px;
+    margin: 4px;
     background-color: #ECB365;
-    color:#04293A;
-    font-size:18px;
+    font-size: 18px;
 }
+
 .btn-buy {
-    background-color: chartreuse;
-    color:white;
-    border-radius: 10px;
+    background-color: #064663;
+    color:#ECB365;
+    border-radius: 15px;
     outline-color: chartreuse;
-    width: 64px;
+    width: 96px;
+    margin:10px;
 }
+
 .btn-sell {
-    background-color: lightgray;
+    background-color: #064663;
     color:white;
-    border-radius: 10px;
+    border-radius: 15px;
     outline-color: chartreuse;
-    width: 64px;
+    width: 96px;
+    margin: 10px;
 }
+
 .card-body > input {
-    width: 48px;
+    width: 96px;
     padding: 8px;
-    font-size:18px;
+    font-size: 18px;
     border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 
 }
+
 .btn:hover {
     padding: 8px;
-    margin:4px;
-    background-color:#064663;
-    color:white;
-    font-size:18px;
+    margin: 4px;
+    background-color: #064663;
+    color: white;
+    font-size: 18px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1800px) {
+    .card-body {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
 }
