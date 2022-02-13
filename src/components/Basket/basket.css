@@ -7,12 +7,14 @@
     background-color: #ECB365;
     width: 30%;
     min-width: fit-content;
-    margin:30px;
     height: 100%;
     color: white;
-    margin-top: 40px;
+    top:100%;
     border-radius: 20px;
     box-shadow: 3px 6px #04293A;
+    box-sizing: border-box;
+    margin-top:40px;
+    min-width: 100%;
 }
 
 .basket-body {

@@ -17,7 +17,7 @@ const Basket = () => {
                         <th>Item</th>
                         <th>Count</th>
                         <th>Price</th>
-                        <th>Total Items Price</th>
+
                     </tr>
                     </thead>
 
@@ -28,7 +28,7 @@ const Basket = () => {
                                 <td>{item.name}</td>
                                 <td>{item.count+"x"}</td>
                                 <td>{item.price.toLocaleString('us-US', { style: 'currency', currency: 'USD' })}</td>
-                                <td>{(item.price*item.count).toLocaleString('us-US', { style: 'currency', currency: 'USD' })}</td>
+
                             </tr>
                         )
                     })}
